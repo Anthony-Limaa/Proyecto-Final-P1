@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Final_P1.Páginas.Psedan"
+             Title="Psedan">
+   
+        <Grid>
+
+
+            <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+                <Label Text="Elige el carro que deseas visualizar:" TextColor="white" HorizontalOptions="Center"  CharacterSpacing="15" />
+
+
+                <Button Text="Carro No.1" Background="lightgray" TextColor="Black" FontFamily="Cambria" FontSize="16" Clicked="boton1" BackgroundColor="SlateGray" />
+                <StackLayout x:Name="InfoStackLayout1" IsVisible="False" Spacing="10">
+                    <Label x:Name="MarcaLabel1" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="ModeloLabel1" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="ColorLabel1" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="AnioLabel1" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="PlacaLabel1" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="TipoLabel1" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                <Button  Text="Encender" TextColor="Black" FontAttributes="Bold" Clicked="botonencender1" HorizontalOptions="Start"/>
+                <Label x:Name="encenderLabel1" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                <Button  Text="Bocina" TextColor="Black" FontAttributes="Bold" Clicked="botonbocina1" HorizontalOptions="Start"/>
+                <Label x:Name="bocinaLabel1" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                <Button  Text="Apagar" TextColor="Black" FontAttributes="Bold" Clicked="botonapagar1" HorizontalOptions="Start" />
+                <Label x:Name="apagarLabel1" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+            </StackLayout>
+
+                <Button Text="Carro No.2" Background="lightgray" TextColor="Black" FontFamily="Cambria" FontSize="16" Clicked="boton2" BackgroundColor="SlateGray"/>
+                <StackLayout x:Name="InfoStackLayout2" IsVisible="False" Spacing="10">
+                    <Label x:Name="MarcaLabel2" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="ModeloLabel2" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="ColorLabel2" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="AnioLabel2" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="PlacaLabel2" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="TipoLabel2" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                <Button  Text="Encender" TextColor="Black" FontAttributes="Bold" Clicked="botonencender2" HorizontalOptions="Start"/>
+                <Label x:Name="encenderLabel2" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                <Button  Text="Bocina" TextColor="Black" FontAttributes="Bold" Clicked="botonbocina2" HorizontalOptions="Start"/>
+                <Label x:Name="bocinaLabel2" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                <Button  Text="Apagar" TextColor="Black" FontAttributes="Bold" Clicked="botonapagar2" HorizontalOptions="Start" />
+                <Label x:Name="apagarLabel2" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+            </StackLayout>
+
+                <Button Text="Carro No.3" Background="lightgray" TextColor="Black" FontFamily="Cambria" FontSize="16" Clicked="boton3" />
+                <StackLayout x:Name="InfoStackLayout3" IsVisible="False" Spacing="10">
+                    <Label x:Name="MarcaLabel3" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="ModeloLabel3" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="ColorLabel3" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="AnioLabel3" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="PlacaLabel3" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="TipoLabel3" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                <Button  Text="Encender" TextColor="Black" FontAttributes="Bold" Clicked="botonencender3" HorizontalOptions="Start"/>
+                <Label x:Name="encenderLabel3" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                <Button  Text="Bocina" TextColor="Black" FontAttributes="Bold" Clicked="botonbocina3" HorizontalOptions="Start"/>
+                <Label x:Name="bocinaLabel3" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+                <Button  Text="Apagar" TextColor="Black" FontAttributes="Bold" Clicked="botonapagar3" HorizontalOptions="Start" />
+                <Label x:Name="apagarLabel3" FontFamily="Cambria" FontAttributes="Bold" TextColor="White"/>
+            </StackLayout>
+            </StackLayout>
+
+
+        </Grid>
+</ContentPage>

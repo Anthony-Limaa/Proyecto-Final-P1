@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Final_P1.Páginas.Menucarros"
+             Title="Menucarros">
+
+    <Grid>
+                
+        <StackLayout Grid.Row="0" VerticalOptions="Start" HorizontalOptions="Center">
+            <Label Text="MENÚ DE SELECCIÓN." FontSize="22" FontFamily="Cambria" HorizontalOptions="Center"  />
+        </StackLayout>
+
+
+        <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+            <Label Text="Elige el tipo de Carro que desees visualizar:" HorizontalOptions="Center"  CharacterSpacing="15" />
+
+            <Button Text="Vehículo 4x4." Background="white" TextColor="Black" FontFamily="Cambria" FontSize="16" Clicked="boton4x4"  />
+            <Button Text="Vehículo PickUp." Background="white" TextColor="Black" FontFamily="Cambria" FontSize="16" Clicked="botonpickup" />
+            <Button Text="Vehículo Sedan" Background="white" TextColor="Black" FontFamily="Cambria" FontSize="16" Clicked="botonsedan"  />
+            <Button Text="Vehículo SUV" Background="white" TextColor="Black" FontFamily="Cambria" FontSize="16" Clicked="botonsuv" />
+
+        </StackLayout>
+
+    </Grid>
+    
+    
+    
+    
+</ContentPage>

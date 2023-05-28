@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Final_P1.MainPage">
+
+
+    <Grid>
+
+        <StackLayout Grid.Row="0" VerticalOptions="Start" HorizontalOptions="Center">
+            <Label Text="AGENCIA DE AUTOMÓVILES." FontSize="22" FontFamily="Cambria" HorizontalOptions="Center" />
+        </StackLayout>
+
+        
+            <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <Label Text="¡BIENVENIDO A MI PROGRAMA!" HorizontalOptions="Center"  CharacterSpacing="15" />
+                <Button Text="Iniciar el Programa" Clicked="botoniniciar" />
+                <Button Text="Salir del Programa." Clicked="botonsalir" />
+
+            <AbsoluteLayout>
+                <Button Text="Eliminar" TextColor="White" FontAttributes="Bold" Background="IndianRed" Clicked="botoneliminar"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0,1,100,50"
+                HorizontalOptions="Start"
+                VerticalOptions="End" />
+            </AbsoluteLayout>
+
+        </StackLayout>
+          
+    </Grid>
+    
+    
+    
+
+</ContentPage>
